@@ -3,8 +3,7 @@ body {
   flex-wrap: nowrap;
   height: 100vh;
   height: -webkit-fill-available;
-  overflow-x: auto;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 body > * {
   flex-shrink: 0;
