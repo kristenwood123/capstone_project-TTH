@@ -11,7 +11,9 @@
 <!-- Bootstrap CDN -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
   integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+  crossorigin="anonymous" />
 <!-- Custom styles for this template -->
 <link href="./css/styles.css" rel="stylesheet">
 </head>
@@ -20,10 +22,8 @@
 <body class='bg-white text-dark'>
 
   <!-- Sidebar -->
-  <!-- <div class="container d-none d-lg-flex flex-column p-3 text-white bg-dark h-100" style="width: 280px;">
+  <div class="container d-none d-lg-flex flex-column p-3 text-white bg-dark" style="width: 280px;">
     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-      <svg class="bi me-2" width="40" height="32">
-      </svg>
       <img src='./images/prof-pic.JPG' style='width: 130px; height: 130px; border-radius: 50%;' alt="">
     </a>
     <div class="d-flex">
@@ -38,47 +38,37 @@
     <ul class="nav nav-pills flex-column mb-auto h-100">
       <li class="nav-item">
         <a href="#" class="nav-link text-white">
-          <svg class="bi me-2" width="16" height="16">
-            <use xlink:href="#home" />
-          </svg>
+        <i class="fas fa-home"></i>
           Home
         </a>
       </li>
       <li>
         <a href="#" class="nav-link text-white">
-          <svg class="bi me-2" width="16" height="16">
-            <use xlink:href="#speedometer2" />
-          </svg>
+        <i class="fas fa-female"></i>
           About
         </a>
       </li>
       <li>
         <a href="#" class="nav-link text-white">
-          <svg class="bi me-2" width="16" height="16">
-            <use xlink:href="#table" />
-          </svg>
+          <i class="far fa-file"></i>
           Resume
         </a>
       </li>
       <li>
         <a href="#" class="nav-link text-white">
-          <svg class="bi me-2" width="16" height="16">
-            <use xlink:href="#grid" />
-          </svg>
+        <i class="fas fa-briefcase"></i>
           Projects
         </a>
       </li>
       <li>
         <a href="#" class="nav-link text-white">
-          <svg class="bi me-2" width="16" height="16">
-            <use xlink:href="#people-circle" />
-          </svg>
+          <i class="far fa-address-book"></i>
           Contact
         </a>
       </li> 
-    </ul>  -->
+    </ul> 
 
-
+</div>
      <!-- /Sidebar -->
    
 
@@ -112,42 +102,10 @@
           </div>
         </div>
       
-      <div class="col-md-6 col-lg-4">
-        <div class="card">
-          <img class='img-fluid' src="https://res.cloudinary.com/dgktwkj2g/image/upload/v1619058735/Dashboard.screenshot_zqxt8l.png" alt="">
-          <h1>Dashboard Chart</h1>
-          <div class="used d-flex justify-content-around">
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>Javascript</p>
-          </div>
-          <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic example">
-            <button>Source Code</button>
-            <button>Live Demo</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4">
-        <div class="card">
-          <img class='img-fluid' src="https://res.cloudinary.com/dgktwkj2g/image/upload/v1619059379/React.screenshot_qhkto8.png" alt="">
-          <h1>React Portfolio</h1>
-          <div class="used d-flex justify-content-around">
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>Javascript</p>
-          </div>
-          <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic example">
-            <button>Source Code</button>
-            <button>Live Demo</button>
-          </div>
-        </div>
-      </div>
-        
         <div class="col-md-6 col-lg-4">
           <div class="card">
-            <img class='img-fluid' src="https://res.cloudinary.com/dgktwkj2g/image/upload/v1619059379/React.screenshot_qhkto8.png" alt="">
-            <h1>Title</h1>
+            <img class='img-fluid' src="https://res.cloudinary.com/dgktwkj2g/image/upload/v1619058735/Dashboard.screenshot_zqxt8l.png" alt="">
+            <h1>Dashboard Chart</h1>
             <div class="used d-flex justify-content-around">
               <p>HTML</p>
               <p>CSS</p>
@@ -163,7 +121,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="card">
             <img class='img-fluid' src="https://res.cloudinary.com/dgktwkj2g/image/upload/v1619059379/React.screenshot_qhkto8.png" alt="">
-            <h1>Title</h1>
+            <h1>React Portfolio</h1>
             <div class="used d-flex justify-content-around">
               <p>HTML</p>
               <p>CSS</p>
@@ -175,24 +133,56 @@
             </div>
           </div>
         </div>
-
-      <div class="col-md-6 col-lg-4">
-        <div class="card">
-          <img class='img-fluid' src="https://res.cloudinary.com/dgktwkj2g/image/upload/v1619059379/React.screenshot_qhkto8.png" alt="">
-          <h1>Title</h1>
-          <div class="used d-flex justify-content-around">
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>Javascript</p>
-          </div>
-          <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic example">
-            <button>Source Code</button>
-            <button>Live Demo</button>
-          </div>
-        </div>
-      </div>
-
         
+          <div class="col-md-6 col-lg-4">
+            <div class="card">
+              <img class='img-fluid' src="https://res.cloudinary.com/dgktwkj2g/image/upload/v1619059379/React.screenshot_qhkto8.png" alt="">
+              <h1>Title</h1>
+              <div class="used d-flex justify-content-around">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Javascript</p>
+              </div>
+              <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic example">
+                <button>Source Code</button>
+                <button>Live Demo</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card">
+              <img class='img-fluid' src="https://res.cloudinary.com/dgktwkj2g/image/upload/v1619059379/React.screenshot_qhkto8.png" alt="">
+              <h1>Title</h1>
+              <div class="used d-flex justify-content-around">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Javascript</p>
+              </div>
+              <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic example">
+                <button>Source Code</button>
+                <button>Live Demo</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card">
+              <img class='img-fluid' src="https://res.cloudinary.com/dgktwkj2g/image/upload/v1619059379/React.screenshot_qhkto8.png" alt="">
+              <h1>Title</h1>
+              <div class="used d-flex justify-content-around">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Javascript</p>
+              </div>
+              <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic example">
+                <button>Source Code</button>
+                <button>Live Demo</button>
+              </div>
+            </div>
+        </div>
+    </div> <!-- /row -->
+  </div><!-- /Container -->
 
 
 
@@ -202,27 +192,41 @@
 
 
 
+<!-- footer -->
+<div class="row py-3 d-flex justify-content-between align-items-center">
+  <div class="col-md-7 text-dark">
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Resume</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+  <div class="col-md text-md-right">
+    <small>&copy; Made with Love by Kristen</small>
+  </div>
+</div><!-- /footer -->
 
 
 
 
 
-      </> <!-- /row -->
 
 
 
-
-
-
-
-
-
-
-  </div><!-- /Projects -->
 
 <!-- /main -->
-
-
 
 <script src='app.js'></script>
   
