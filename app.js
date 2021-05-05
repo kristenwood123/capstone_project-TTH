@@ -1,4 +1,4 @@
-const scrollButton = document.getElementById('js-top')
+const scrollButton = document.getElementById('js-top');
 const scrollFunc = () => {
   // Get the current scroll value
   let y = window.scrollY;
