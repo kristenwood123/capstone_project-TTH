@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.4s ease-out;
+}
+
+.icon {
+  width: 35px;
+}
+
+.btn-resume {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-group button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  color: rgb(18, 18, 182);
+}
+
+.icon2 {
+  width: 30px;
+  height: 30px;
+  top: 5px;
+}
+
+.used p {
+  background: rgb(247, 247, 247);
+  padding: 8px;
+  border-radius: 44px;
+}
+
+.btn-group button:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.used p:nth-child(2) {
+  background: rgb(30, 30, 99);
+  color: white;
+}
+
+.jumbotron {
+  background-image: url("./images/header.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.jumbotron h1 {
+  margin: 30px 0;
+  font-size: 100px;
+  line-height: 1.5;
+}
+
+.jumbotron p {
+  color: white;
+  font-size: 50px;
+}
+
+.intro {
+  padding-top: 180px;
+}
+
+.navbar-nav a {
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+
+.navbar-toggler {
+  color: #fff;
+  border: none !important;
+  outline: none;
+}
+
+.navbar-toggler .fa {
+  color: white;
+  font-size: 26px;
+}
+
+.nav-link:hover {
+  font-weight: 600px;
+  border-bottom: 1px solid white;
+  margin-bottom: -1px;
+}
+
+@media (min-width: 0) {
+  .jumbotron h1 {
+    font-size: 50px;
+  }
+
+  .jumbotron .lead {
+    margin-top: -50px;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .jumbotron h1 {
+    font-size: 80px;
+  }
+
+  .jumbotron .lead {
+    font-size: 40px;
+  }
+}

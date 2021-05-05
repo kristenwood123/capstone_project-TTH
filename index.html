@@ -14,223 +14,176 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
   integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
   crossorigin="anonymous" />
+ 
 <!-- Custom styles for this template -->
-<link href="./css/styles.css" rel="stylesheet">
+<link href="./styles.css" rel="stylesheet">
 </head>
-
-
-<body class='bg-white text-dark'>
-  <!-- Sidebar -->
-  <div class="container d-none d-lg-flex flex-column p-3 text-white bg-dark" style="width: 280px;">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-      <img src='./images/prof-pic.JPG' style='width: 130px; height: 130px; border-radius: 50%;' alt="">
-    </a>
-    <div class="d-flex">
-    <a href="">
-      <img class ='icon' src=./images/linkedin-icon.png style='filter: brightness(0) invert(1);' alt="linkedin icon">
-    </a>
-    <a href="">
-      <img class='icon' src=./images/github-icon.png style='filter: brightness(0) invert(1);' alt="github icon">
-    </a>
-    </div>
-    <hr>
-    <ul class="nav nav-pills flex-column mb-auto h-100">
-      <li class="nav-item">
-        <a href="#" class="nav-link text-white">
-        <i class="fas fa-home"></i>
-          Home
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-        <i class="fas fa-female"></i>
-          About
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-          <i class="far fa-file"></i>
-          Resume
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-        <i class="fas fa-briefcase"></i>
-          Projects
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-          <i class="far fa-address-book"></i>
-          Contact
-        </a>
-      </li> 
-    </ul> 
-</div>
-     <!-- /Sidebar -->
-<div>
-  <div>
-    <!-- Header  -->
-    <header class='pt-4rem height-5' style="background-image:url('./images/header.jpg'); background-size: cover;">
-      <h1>Kristen Woodward</h1>
-      <div class='css-typing'>
-        <p>I'm a Developer</p>
-        <p>I'm a Designer</p>
-        <p>I'm a lifelong learner....</p>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+           <i class='fa fa-bars'></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Projects</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact</a>
+              </li>
+          </ul>
+        </div>
       </div>
-    </header>
-    <!-- /Header  -->
-</div>
-<!-- Container -->
-<div class="container mw-50 flex-column pt-5">
+    </nav>
+  </section>
 
-<!-- About Section --><h1 class='flex'>About</h1>
-        <hr>
-        <p class='text-center mw-50'>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit.
-        Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi
-        quidem hic quas.</p>
-       <!-- /About-->
-
-    <!-- Projects -->
-    <div class="container-fluid pt-4">
-      <div class="row">
-
-        <div class="col-md-6 col-lg-4">
-          <div class="card">
-            <img class='img-fluid' src="https://res.cloudinary.com/dgktwkj2g/image/upload/v1619317931/employee.screenshot_j4b77y.png" alt="">
-            <h1>API Employee Directory</h1>
-            <div class="used d-flex justify-content-around">
-              <p>HTML</p>
-              <p>CSS</p>
-              <p>Javascript</p>
-            </div>
-            <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic example">
-              <button>Source Code</button>
-              <button>Live Demo</button>
-            </div>
+  <!-- Jumbotron -->
+  <div class="jumbotron text-center">
+    <div class="intro">
+      <h1>Kristen Woodward</h1>
+      <p class="lead">I'm a developer</p>
+      <div class="btn-container mt-0">
+      <button type='button' class='btn btn-outline-light btn-resume'>See my Resume</button>
+      </div>
+    </div>
+  </div> <!-- /Jumbotron -->
+  
+  <div class="container-md pt-4">
+    <div class="row mb-2">
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3">
+          <img class='img-fluid'
+            src="https://res.cloudinary.com/dgktwkj2g/image/upload/v1619317931/employee.screenshot_j4b77y.png" alt="">
+          <h1 class='mx-3'>API Employee Directory</h1>
+          <p class='mx-3'>Search for different employees and find them easily by their name. Directly communicating with third party API.</p>
+          <div class="used d-flex justify-content-around">
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Javascript</p>
+          </div>
+          <hr>
+          <div class="btn-group d-flex justify-content-around mb-4" role="group" aria-label="Basic example">
+            <button>Source Code</button>
+            <button>Live Demo 
+              <i class="fas fa-external-link-alt"></i>
+            </button>
           </div>
         </div>
-      
-        <div class="col-md-6 col-lg-4">
-          <div class="card">
-            <img class='img-fluid' src="https://res.cloudinary.com/dgktwkj2g/image/upload/v1619058735/Dashboard.screenshot_zqxt8l.png" alt="">
-            <h1>Dashboard Chart</h1>
-            <div class="used d-flex justify-content-around">
-              <p>HTML</p>
-              <p>CSS</p>
-              <p>Javascript</p>
-            </div>
-            <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic example">
-              <button>Source Code</button>
-              <button>Live Demo</button>
-            </div>
+      </div>
+  
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3">
+          <img class='img-fluid'
+            src="https://res.cloudinary.com/dgktwkj2g/image/upload/v1619058735/Dashboard.screenshot_zqxt8l.png" alt="">
+          <h1 class='mx-3'>Dashboard Chart</h1>
+          <p class='mx-3'>Interactive dashboard utilizing SVG graphics and an interface that promotes interactivity and usability.</p>
+          <div class="used d-flex justify-content-around">
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Javascript</p>
+          </div>
+          <hr>
+          <div class="btn-group d-flex justify-content-around mb-4" role="group" aria-label="Basic example">
+            <button>Source Code</button>
+            <button>Live Demo
+              <i class="fas fa-external-link-alt"></i>
+            </button>
           </div>
         </div>
-
-        <div class="col-md-6 col-lg-4">
-          <div class="card">
-            <img class='img-fluid' src="https://res.cloudinary.com/dgktwkj2g/image/upload/v1619059379/React.screenshot_qhkto8.png" alt="">
-            <h1>React Portfolio</h1>
-            <div class="used d-flex justify-content-around">
-              <p>HTML</p>
-              <p>CSS</p>
-              <p>Javascript</p>
-            </div>
-            <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic example">
-              <button>Source Code</button>
-              <button>Live Demo</button>
-            </div>
+      </div>
+  
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3">
+          <img class='img-fluid'
+            src="https://res.cloudinary.com/dgktwkj2g/image/upload/c_scale,h_598/v1619059379/React.screenshot_qhkto8.png" alt="">
+          <h1 class='mx-3'>React Portfolio</h1>
+          <p class='mx-3'>A mobile-first interactive portfolio side displaying skills, (mock) experience and projects utilizing React Hooks with a responsive Navbar.?</p>
+          <div class="used d-flex justify-content-around">
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Javascript</p>
+          </div>
+          <hr>
+          <div class="btn-group d-flex justify-content-around mb-4" role="group" aria-label="Basic example">
+            <button>Source Code</button>
+            <button>Live Demo
+              <i class="fas fa-external-link-alt"></i>
+            </button>
           </div>
         </div>
-        
-          <div class="col-md-6 col-lg-4">
-            <div class="card">
-              <img class='img-fluid' src="https://res.cloudinary.com/dgktwkj2g/image/upload/v1619059379/React.screenshot_qhkto8.png" alt="">
-              <h1>Title</h1>
-              <div class="used d-flex justify-content-around">
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>Javascript</p>
-              </div>
-              <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic example">
-                <button>Source Code</button>
-                <button>Live Demo</button>
-              </div>
-            </div>
+      </div>
+  
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3">
+          <img class='img-fluid'
+            src="https://res.cloudinary.com/dgktwkj2g/image/upload/v1619977907/rsvp_xtc1n8.png" alt="">
+          <h1 class='mx-3'>RSVP App</h1>
+          <p class='mx-3'>Interactive, responsive & stateful SPA React App. Add yourself to the list, help slow the spread of covid by wearing a mask or share if you're vaccinated!</p>
+          <div class="used d-flex justify-content-around">
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Javascript</p>
           </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="card">
-              <img class='img-fluid' src="https://res.cloudinary.com/dgktwkj2g/image/upload/v1619059379/React.screenshot_qhkto8.png" alt="">
-              <h1>Title</h1>
-              <div class="used d-flex justify-content-around">
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>Javascript</p>
-              </div>
-              <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic example">
-                <button>Source Code</button>
-                <button>Live Demo</button>
-              </div>
-            </div>
+          <hr>
+          <div class="btn-group d-flex justify-content-around mb-4" role="group" aria-label="Basic example">
+            <button>Source Code</button>
+            <button>Live Demo
+              <i class="fas fa-external-link-alt"></i>
+            </button>
           </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="card">
-              <img class='img-fluid' src="https://res.cloudinary.com/dgktwkj2g/image/upload/v1619059379/React.screenshot_qhkto8.png" alt="">
-              <h1>Title</h1>
-              <div class="used d-flex justify-content-around">
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>Javascript</p>
-              </div>
-              <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic example">
-                <button>Source Code</button>
-                <button>Live Demo</button>
-              </div>
-            </div>
         </div>
+      </div>
+  
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3">
+          <img class='img-fluid'
+            src="https://res.cloudinary.com/dgktwkj2g/image/upload/v1619059821/gallery.screenshot_rbwj7z.png" alt="">
+          <h1 class='mx-3'>Interactive Photo Gallery</h1>
+          <p class='mx-3'>An interactive image gallery utilizing JavaScript to create a searchable gallery of photos. </p>
+          <div class="used d-flex justify-content-around">
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Javascript</p>
+          </div>
+          <hr>
+          <div class="btn-group d-flex justify-content-around mb-4" role="group" aria-label="Basic example">
+            <button>Source Code</button>
+            <button>Live Demo
+              <i class="fas fa-external-link-alt"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3">
+          <img class='img-fluid'
+            src="https://res.cloudinary.com/dgktwkj2g/image/upload/v1619060224/wheel.screenshot_kwlrnb.png" alt="">
+          <h1 class='mx-3'>Wheel of Fortune</h1>
+          <p class='mx-3'>Browser version of Wheel of Fortune, a word guessing game. Use random phrases that players try to guess.</p>
+          <div class="used d-flex justify-content-around">
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Javascript</p>
+          </div>
+          <hr>
+          <div class="btn-group d-flex justify-content-around mb-4" role="group" aria-label="Basic example">
+            <button>Source Code</button>
+            <button>Live Demo
+              <i class="fas fa-external-link-alt"></i>
+            </button>
+          </div>
+        </div>
+      </div>
     </div> <!-- /row -->
   </div><!-- /Container -->
-
-</div>
-
-
-
-
-
-
-
-<!-- footer -->
-<div class="row py-3 d-flex justify-content-between align-items-center">
-  <div class="col-md-7 text-dark">
-    <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Resume</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-    </ul>
-  </div>
-  <div class="col-md text-md-right">
-    <small>&copy; Made with Love by Kristen</small>
-  </div>
-</div><!-- /footer -->
-
-
-
-
-
 
 
 
