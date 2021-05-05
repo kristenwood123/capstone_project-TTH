@@ -25,12 +25,23 @@
   background: none;
   text-transform: uppercase;
   color: rgb(18, 18, 182);
+  font-size: 14px;
 }
 
 .icon2 {
   width: 30px;
   height: 30px;
   top: 5px;
+}
+
+.fab {
+  font-size: 30px;
+  color: white;
+}
+
+.fab:hover {
+  color: rgba(248, 79, 93, 0.8);
+  transition: 0.2s;
 }
 
 .used p {
