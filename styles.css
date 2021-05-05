@@ -32,7 +32,7 @@ html {
   cursor: pointer;
 }
 
-.fas {
+.fa-arrow-circle-up {
   color: rgb(30, 30, 99);
 }
 
@@ -55,7 +55,7 @@ html {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.btn-group button {
+.source {
   border: none;
   background: none;
   text-transform: uppercase;
@@ -89,7 +89,7 @@ html {
   border-radius: 44px;
 }
 
-.btn-group button:hover {
+.source:hover {
   transform: scale(1.1);
   transition: 0.2s;
 }
@@ -139,7 +139,6 @@ html {
 }
 
 .nav-link:hover {
-  font-weight: 600px;
   border-bottom: 1px solid white;
   margin-bottom: -1px;
 }
